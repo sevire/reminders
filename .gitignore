@@ -131,6 +131,3 @@ dmypy.json
 .idea/dataSources.local.xml
 .idea/dataSources/
 .idea/workspace.xml
-reminders.db
-static/
-templates/

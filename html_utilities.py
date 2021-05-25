@@ -1,4 +1,17 @@
 from functools import reduce
+import htmlmin as htmlmin
+
+
+def minimise_html(html_string):
+    """
+    To help in comparing actual and expected html strings, this function removes all whitespace and newlines
+    from an html string.
+
+    :param html_string:
+    :return:
+    """
+    minified = htmlmin.minify(html_string, remove_all_empty_space=True)
+    return minified
 
 
 def table(headings, records):
