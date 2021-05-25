@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/reminders.db
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/workspace.xml
+reminders.db
+static/
+templates/
